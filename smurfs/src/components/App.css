@@ -1,28 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Smurfin {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Smurfin h2 {
+    color: #a1c4fd;
+    font-size: 30px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.Smurfs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: space-evenly;
 }
 
-.App-intro {
-  font-size: large;
+.Smurf {
+    box-shadow: 4px 6px 12px -2px rgba(0, 0, 0, 0.75);
+    width: 200px;
+    padding: 5%;
+    border-radius: 5%;
+    border: 1px solid gray;
+    margin-top: 7%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.smurf-logo {
+    margin-top: 2%;
+    width: 250px;
+    height: 100px;
+}
+
+.input {
+    box-shadow: inset 2px 1px 1px 2px black;
+}
+
+.abutton {
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    background-color: #33bdef;
+    border-radius: 6px;
+    border: 1px solid #057fd0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #5b6178;
+}
+
+.abutton:hover {
+    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color: #019ad2;
+}
+
+.abutton:active {
+    position: relative;
+    top: 1px;
+}
+
+input {
+    outline: none;
+    background-color: #fff;
+    font-size: 21px;
+    height: 50px;
+    width: 300px;
+    padding: 0 8px;
+    color: #1c5d76;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+
+.myButton-form {
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background: linear-gradient(to bottom, #6f87d7 5%, #c5d4d9 100%);
+    background-color: #6f87d7;
+    border-radius: 6px;
+    border: 1px solid #9ea1db;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #748adb;
+}
+
+.myButton-form:hover {
+    background: linear-gradient(to bottom, #c5d4d9 5%, #6f87d7 100%);
+    background-color: #c5d4d9;
+}
+
+.myButton-form:active {
+    position: relative;
+    top: 1px;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
