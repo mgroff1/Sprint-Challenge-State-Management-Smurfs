@@ -90,7 +90,7 @@ class BuildASmurf extends React.Component {
             div className = "baseline" / >
 
             <
-            button className = "abutton" > Add Smurf < /button> < /
+            button className = "abutton" > Pro Smurfanate < /button> < /
             form > <
             /div>
         );

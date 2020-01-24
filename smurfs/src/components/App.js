@@ -3,7 +3,7 @@ import './App.css';
 import { connect } from 'react-redux'
 import SmurfList from './SmurfList'
 import SmurfForm from './SmurfForm'
-import { addSmurfs } from '../actions/index'
+import { addSmurfs, deleteSmurf } from '../actions/index'
 
 class App extends Component {
     render() {
@@ -14,10 +14,8 @@ class App extends Component {
 
             <
             SmurfForm submit = { this.props.addSmurfs }
-            />
-
-            <
-            /div>
+            />  < /
+            div >
         );
     }
 }
