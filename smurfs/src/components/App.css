@@ -20,9 +20,12 @@ background: rgba(99,28,245,0.99) url("https://cdn.imgbin.com/12/7/8/imgbin-hefty
     flex-direction: column;
 }
 
-.Smurfin h2 {
-    color: #a1c4fd;
+h2 {
+
     font-size: 30px;
+    color: #FFFFFF;
+
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }
 
 .Smurfs {
